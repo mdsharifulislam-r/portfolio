@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Inspiration&family=Inter:wght@100;300;800&family=Jaldi&family=Jura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=Keania+One&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,6 +6,15 @@
 {
     body{
         overflow-x: hidden;
+        font-family: 'Istok Web', sans-serif;;
+    }
+    .logo
+    {
+        font-family: 'Keania One', sans-serif;
+    }
+    .kale
+    {
+        opacity: 0;
     }
    .nav-brand
    {
