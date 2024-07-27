@@ -1,20 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=Keania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Jura:wght@300..700&display=swap');
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities;                               
  @layer components
 {
+    @font-face {
+        font-family: jua;
+        src: url(assets/Fonts/jua.ttf);
+    }
+    @font-face {
+        font-family: jura;
+        src: url(assets/Fonts/jura.ttf);
+    }
     body{
         overflow-x: hidden;
-        font-family: 'Istok Web', sans-serif;;
+        
     }
-    .logo
+    .text
     {
-        font-family: 'Keania One', sans-serif;
+        font-family: jura;
     }
-    .kale
+    .header
     {
-        opacity: 0;
+        font-family: jua;
+    }
+    .header-bg{
+        background-color: rgb(255, 3, 200);
+    }
+    .text-color{
+        color:rgb(255, 3, 200) ;
     }
    .nav-brand
    {
