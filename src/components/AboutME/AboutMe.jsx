@@ -20,7 +20,7 @@ export default function AboutMe() {
 
         <div className="text-textColor md:w-[40%]" data-aos="fade-right" data-aos-delay={700}>
           <h1 className="text-5xl font-bold">About Me</h1>
-          <p className="py-3">
+          <p className="py-3 text-justify">
             I am MD Shariful Islam. I am a Frontend Web developer . I am a
             student of Computer science at Cumilla Polytechnic Institute. I have
             skills in React, Express Js, Node js, socket io MongoDB, Javascript,
