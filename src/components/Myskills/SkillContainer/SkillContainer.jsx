@@ -4,8 +4,10 @@ import { FaFigma, FaNodeJs, FaReact } from "react-icons/fa";
 import { SiExpress, SiMongodb, SiRedux } from "react-icons/si";
 export default function SkillContainer() {
   return (
-    <div className="grid lg:grid-cols-2 gap-3 lg:p-24 px-5 py-10">
+    <div className="grid lg:grid-cols-2 gap-3  py-10">
       <SkillBox
+      index={1}
+
         name={"React Js"}
         icon={<FaReact />}
         desc={
@@ -18,6 +20,7 @@ export default function SkillContainer() {
         persent={90}
       />
       <SkillBox
+      index={3}
         name={"Node Js"}
         icon={<FaNodeJs/>}
         desc={
@@ -30,6 +33,7 @@ export default function SkillContainer() {
         persent={80}
       />
       <SkillBox
+      index={4}
         name={"Express Js"}
         icon={<SiExpress/>}
         desc={
@@ -42,6 +46,7 @@ export default function SkillContainer() {
         persent={80}
       />
       <SkillBox
+      index={5}
         name={"MongoDB"}
         icon={<SiMongodb />}
         desc={
@@ -54,6 +59,7 @@ export default function SkillContainer() {
         persent={95}
       />
       <SkillBox
+      index={6}
         name={"Figma"}
         icon={<FaFigma />}
         desc={
@@ -66,6 +72,7 @@ export default function SkillContainer() {
         persent={60}
       />
       <SkillBox
+      index={7}
         name={"Redux"}
         icon={<SiRedux/>}
         desc={

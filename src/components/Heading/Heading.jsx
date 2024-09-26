@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 export default function Heading({title,sub1,sub2}) {
   return (
     <div className="flex">
-      <div className="text-white header lg:text-7xl md:text-5xl text-4xl relative">
+      <div className="text-textColor header lg:text-5xl font-bold md:text-5xl text-4xl relative">
               {title}<span className="text-pink-600">.</span>
               <motion.div initial={{
             width:0

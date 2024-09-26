@@ -5,16 +5,17 @@ import Services from '../Services/Services'
 import MySkills from '../Myskills/MySkills'
 import MyWorks from '../MyWorks/MyWorks'
 import Plan from '../Plan/Plan'
+import ContactMe from '../ContactME/ContactMe'
 
 export default function Home() {
   return (
     <div className=''>
       <HeroSection />
       <AboutMe />
-      <Services />
+ 
       <MySkills />
       <MyWorks />
-      <Plan/>
+    <ContactMe/>
     </div>
   )
 }

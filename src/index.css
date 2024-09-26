@@ -5,8 +5,8 @@
  @layer components
 {
     @font-face {
-        font-family: jua;
-        src: url(assets/Fonts/jua.ttf);
+        font-family: avanta;
+        src: url(assets/Fonts/avanta.otf);
     }
     @font-face {
         font-family: jura;
@@ -14,52 +14,13 @@
     }
     body{
         overflow-x: hidden;
-        
+        font-family: avanta;
     }
-    .text
-    {
-        font-family: jura;
-    }
-    .header
-    {
-        font-family: jua;
-    }
-    .header-bg{
-        background-color: rgb(255, 3, 200);
-    }
-    .text-color{
-        color:rgb(255, 3, 200) ;
-    }
-   .nav-brand
-   {
-    font-family: 'Inspiration', cursive;
-   }
-   .links
-   {
-    font-family: 'Inria Sans', sans-serif;
-   }
-   .mim-text
-   {
-    font-family: 'Inter', sans-serif;
-    font-weight: 100;
-   }
-   .sale
-   {
-    font-family: 'Inter', sans-serif;
-   }
-   .jura
-   {
-    font-family: 'Jura', sans-serif;
-   }
-   .navBottom
-   {
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-   }
-   .shado
-   {
-    background-image: url("./assets/Login/login.jpg");
-    background-size: cover;
-    transition: 2s;
-   }
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
  
 }   
